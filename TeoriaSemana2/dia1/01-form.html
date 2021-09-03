@@ -1,87 +1,90 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <h1>Formulario de Registro</h1>
     </header>
     <main>
         <section>
-            <h2>Ingreso de datos</h2>
-                <label for="nombres" >Nombre :   </label>
-                <input 
-                    type="text"
-                    id="nombres" 
-                    placeholder="Ej. Juan Luis "
-                >
+            <form action="">
+                <h2>Ingreso de datos</h2>
+                <label for="nombres">Nombre : </label>
+                <input type="text" id="nombres" placeholder="Ej. Juan Luis ">
                 <br>
                 <label for="apellidos">Apellidos: </label>
-                <input
-                    type="text"
-                    placeholder="Ej. Perez Santos"
-                    id="apellidos">
-                 <br>
-                 <label for="email">email :</label>
-                 <input
-                    type="email" id="email"
-                    placeholder="usuario@dominio.com"
-                    id="email">
-                  <br>
-                  <label for="contrasena">Contraseña :</label>
-                  <input 
-                    type="password"
-                    placeholder="6 caracteres minimo"
-                    id="contrasena">
-                    <br>
-                    <label for="edad">Edad :</label>
-                    <input
-                     type="number"
-                     placeholder="Ej.18"
-                     id="edad"
-                    >
-                    <br>
-                    <label for="">Genero</label>
-                    <br>
-                    <input type="radio" name="genero" value="M"> Masculino
-                    <input type="radio" name="genero" value="F"> Femenino
-                    <input type="radio" name="genero" value="NC"> Prefiero no compartirlo
-                    <br>
-                    <label for="">Intereses</label>
-                    <input type="checkbox" value="next"> Next.js
-                    <input type="checkbox" value="cocina"> Cocina para desarrolladores
-                    <input type="checkbox" value="juegos"> Video Juegos 
-                    <input type="checkbox" value="musica"> Musica
-                    <br>
-                    <label for="">Ciudad</label>
-                    <select>
-                        <option selected disabled>Seleccione una opcion</option>
-                        <option value="AM">Amazonas</option>
-                        <option value="AN">Ancash</option>
-                        <option value="AP">Apurimac</option>
-                        <option value="AR">Arequipa</option>
-                        <option value="CU">Cusco</option>
-                        <option value="LI">Lima</option>
-                        <option value="PI">Piura</option>
-                        <option value="TA">Tacna</option>
-                    </select>
-                    <br>
-                    <label for="">Distritos</label>
-                    <input list="Distritos">
-                    <datalist id="Distritos">
-                            <option value="Lima Cercado">Lima Cercado</option>
-                            <option value="Brena">Brena</option>
-                            <option value="Ate">Ate</option>
-                            <option value="Pueblo libre">Pueblo libre</option>
-                            <option value="San Miguel">San Miguel</option>
-                            <option value="San Juan de Lurigancho">San Juan de Lurigancho</option>
-                    </datalist>
+                <input type="text" placeholder="Ej. Perez Santos" id="apellidos">
+                <br>
+                <label for="email">email :</label>
+                <input type="email" id="email" placeholder="usuario@dominio.com" id="email">
+                <br>
+                <label for="contrasena">Contraseña :</label>
+                <input type="password" placeholder="6 caracteres minimo" id="contrasena">
+                <br>
+                <label for="edad">Edad :</label>
+                <input type="number" placeholder="Ej.18" id="edad">
+                <br>
+                <label for="">Genero</label>
+                <br>
+                <input type="radio" name="genero" value="M"> Masculino
+                <input type="radio" name="genero" value="F"> Femenino
+                <input type="radio" name="genero" value="NC"> Prefiero no compartirlo
+                <br>
+                <label for="">Intereses</label>
+                <input type="checkbox" value="next"> Next.js
+                <input type="checkbox" value="cocina"> Cocina para desarrolladores
+                <input type="checkbox" value="juegos"> Video Juegos
+                <input type="checkbox" value="musica"> Musica
+                <br>
+                <label for="">Ciudad</label>
+                <select>
+                    <option selected disabled>Seleccione una opcion</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="AN">Ancash</option>
+                    <option value="AP">Apurimac</option>
+                    <option value="AR">Arequipa</option>
+                    <option value="CU">Cusco</option>
+                    <option value="LI">Lima</option>
+                    <option value="PI">Piura</option>
+                    <option value="TA">Tacna</option>
+                </select>
+                <br>
+                <label for="">Distritos</label>
+                <input list="Distritos">
+                <datalist id="Distritos">
+                    <option value="Lima Cercado">Lima Cercado</option>
+                    <option value="Brena">Brena</option>
+                    <option value="Ate">Ate</option>
+                    <option value="Pueblo libre">Pueblo libre</option>
+                    <option value="San Miguel">San Miguel</option>
+                    <option value="San Juan de Lurigancho">San Juan de Lurigancho</option>
+                </datalist>
+                <br>
+                <label for="">Color</label>
+                <input type="color">
+                <br>
+                <label for="">Fecha de Nacimiento</label>
+                <input type="date">
+                <br>
+                <label for="">Hora</label>
+                <input type="time">
+                <br>
+                <label for="">Bibliografia</label>
+                <textarea name="" id="" cols="30" rows="2"></textarea>
+                <br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpiar">
+                <button>Enviar</button>
             </form>
         </section>
     </main>
 </body>
+
 </html>
