@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario de Registro</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Ingreso de datos</h2>
+                <label for="nombres" >Nombre :   </label>
+                <input 
+                    type="text"
+                    id="nombres" 
+                    placeholder="Ej. Juan Luis "
+                >
+                <br>
+                <label for="apellidos">Apellidos: </label>
+                <input
+                    type="text"
+                    placeholder="Ej. Perez Santos"
+                    id="apellidos">
+                 <br>
+                 <label for="email">email :</label>
+                 <input
+                    type="email" id="email"
+                    placeholder="usuario@dominio.com"
+                    id="email">
+                  <br>
+                  <label for="contrasena">Contraseña :</label>
+                  <input 
+                    type="password"
+                    placeholder="6 caracteres minimo"
+                    id="contrasena">
+                    <br>
+                    <label for="edad">Edad :</label>
+                    <input
+                     type="number"
+                     placeholder="Ej.18"
+                     id="edad"
+                    >
+                    <br>
+                    <label for="">Genero</label>
+                    <br>
+                    <input type="radio" name="genero" value="M"> Masculino
+                    <input type="radio" name="genero" value="F"> Femenino
+                    <input type="radio" name="genero" value="NC"> Prefiero no compartirlo
+                    <br>
+                    <label for="">Intereses</label>
+                    <input type="checkbox" value="next"> Next.js
+                    <input type="checkbox" value="cocina"> Cocina para desarrolladores
+                    <input type="checkbox" value="juegos"> Video Juegos 
+                    <input type="checkbox" value="musica"> Musica
+            </form>
+        </section>
+    </main>
+</body>
+</html>
