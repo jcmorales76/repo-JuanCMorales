@@ -17,10 +17,10 @@
             <form action="">
                 <h2>Ingreso de datos</h2>
                 <label for="nombres">Nombre : </label>
-                <input type="text" id="nombres" placeholder="Ej. Juan Luis ">
+                <input type="text" id="nombres" placeholder="Ej. Juan Luis " required minlength="2" maxlength="10">
                 <br>
                 <label for="apellidos">Apellidos: </label>
-                <input type="text" placeholder="Ej. Perez Santos" id="apellidos">
+                <input type="text" placeholder="Ej. Perez Santos" id="apellidos" required pattern="[a-zA-Z]{1,}">
                 <br>
                 <label for="email">email :</label>
                 <input type="email" id="email" placeholder="usuario@dominio.com" id="email">
@@ -29,7 +29,7 @@
                 <input type="password" placeholder="6 caracteres minimo" id="contrasena">
                 <br>
                 <label for="edad">Edad :</label>
-                <input type="number" placeholder="Ej.18" id="edad">
+                <input type="number" placeholder="Ej.18" id="edad" min="0" max="140">
                 <br>
                 <label for="">Genero</label>
                 <br>
