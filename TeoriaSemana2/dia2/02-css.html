@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="02-css.css">
     <title>Document</title>
     <style>
         /* Escribir codigo CSS en el html*/
@@ -12,33 +13,60 @@
             color: steelblue;
             font-family: Arial;
         }
+        footer{
+            background-color:lightgreen;
+        }
     </style>
 </head>
 
 <body>
-    <header style="color: blue; background: lightcoral;">
-        <h1>
+    <header>
+        <h1 style="color: blue; background: lightcoral;" class="titulo1">
             Estilos CSS
         </h1>
     </header>
     <main>
         <section>
             <h2>Articulos</h2>
-            <article>
+            <article class="rojo bordeazul">
                 <h3>Vacunaton</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore repellat ipsum vitae aliquam rem
                     eius deserunt aut harum. Neque, et.</p>
             </article>
-            <article>
+            <article id="importante">
                 <h3>Chalaca de Tapia</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam fuga ex esse at omnis pariatur sequi
                     necessitatibus veniam sed fugiat.</p>
+                    
             </article>
         </section>
     </main>
     <footer>
-        <section>
-            <h2>Contacto</h2>
+        <section class="rojo">
+            <h2 class="sub">Contacto</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <ul>
+                <li>Pescado</li>
+                <li>cebolla</li>
+                <li>limon</li>
+                <li>apio</li>
+                <li>culantro</li>
+                <li>camote</li>
+                <li>maiz</li>
+                <li>sal</li>
+                <li>sal</li>
+                <li>Aji limo</li>
+                <li>chifle</li>
+            </ul>
+            <ol>
+                <li>Interstellar</li>
+                <li>Marea Roja</li>
+                <li>El Francotirador</li>
+                <li>El Naufrago</li>
+                <li>Transformers</li>
+                <li>bastardos sin gloria</li>
+                <li>el renacido</li>
+            </ol>
         </section>
     </footer>
 </body>
