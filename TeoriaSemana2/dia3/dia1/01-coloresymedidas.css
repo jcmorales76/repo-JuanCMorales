@@ -1,0 +1,19 @@
+h1{
+    color: peru;
+}
+h2{
+    /* HEXADECIMAL Trabaja en pares */
+    /* #RR GG BB */
+    /* color: #405dfc; */
+    color: #555;
+}
+h3{
+    /* RGB, 0 a 255 cada color */
+    color: rgb(52, 37, 152);
+}
+p{
+    /* hue, saturation, lightness */
+    /* Matriz, saturacion e iluminacion */
+    /* grados, porcentaje y porcentaje */
+    background-color: hsl(300,50%,70%);
+}
