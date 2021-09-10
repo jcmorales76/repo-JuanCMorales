@@ -1,5 +1,12 @@
+*{
+    /* Todos los elementos tengan un borde de un 1px y sean rojos */
+    border: 1px solid red;
+}
 h1{
     color: peru;
+    width: 50%;
+    border: 1px solid blue;
+    height: 20%;
 }
 h2{
     /* HEXADECIMAL Trabaja en pares */
@@ -16,4 +23,12 @@ p{
     /* Matriz, saturacion e iluminacion */
     /* grados, porcentaje y porcentaje */
     background-color: hsl(300,50%,70%);
+}
+
+/* Medidas */
+
+/* Fijos */
+header{
+    width: 500px;
+    height:200px;
 }
