@@ -212,7 +212,47 @@ nav li {
     
 }
 
+/* SUSCRIBETE */
+.suscribete{
+    max-width:  1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.suscribete h2{
+    font-size: 45px;
+    font-weight:500;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
 
+.suscribete h5{
+    color: #5C5C5C;
+    font-size:17px;
+    font-weight: 100;
+}
+
+.suscribete button{
+    background-color: #03D6F3;
+    border: 0;
+    width:10rem;
+    padding: 15px 10px;
+    border-radius: 25px;
+    color: white; 
+    font-weight: 500;
+}
+
+.suscribete input{
+    width: 250px;
+    height:45px;
+    margin-bottom: 200px;
+    margin-top: 45px;
+    padding-left: 20px;
+    background-color: #EFEFEF;
+    border-color: #EFEFEF;
+    border-radius: 5px;
+}
 
 /* mediaquery */
 
