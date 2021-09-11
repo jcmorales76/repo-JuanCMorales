@@ -33,18 +33,31 @@ nav li {
     margin: 0 5px;  
 }
 
-button:hover {
+.contenedor button:hover {
     background-color: white;
     color: rgb(59, 59, 59);
 }
 
-button{
+.contenedor button{
     background-color: transparent;
     border:1px solid white;
     padding: 10px 20px;
     border-radius: 20px;
     color: white;
     max-height: 40px;
+}
+
+.hero button:hover{
+    background-color: white;
+    color: rgb(59, 59, 59);
+}
+.hero button{
+    background-color: transparent;
+    border:1px solid white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    max-height: 40px; 
 }
 .hero{
     padding: 80px;
@@ -64,7 +77,8 @@ button{
     max-width: 75vw;
 }
 
-/* TARJETAS */
+/* ----- TARJETAS ------*/
+
 .caracteristicas{
     max-width:1200px;
     margin: 0 auto;
@@ -88,8 +102,10 @@ button{
     margin: 5px 0;
 }
 .tarjeta img{
-    width: 60px;
-    
+    width: 60px;   
+}
+.texto{
+    padding-bottom: 20px;
 }
 .tarjeta a{
     text-decoration: none;
@@ -100,13 +116,114 @@ button{
     color: white; 
 }
 
+/* Tarjetas 2 */
+
+.planes{
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 50px; 
+}
+
+.planes h2, h3, h5{
+    text-align: center;
+}
+
+.planes h2{
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.planes h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.tarjeta2 h3{
+    font-size: 32px;
+    font-weight: 500 bold;
+}
+
+.tarjeta2 img{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.tarjetas2{
+    display: flex;
+    
+}
+.tarjeta2{
+    width: 335px;
+    height: 890px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.tarjeta2 *{
+    margin: 5px 0; 
+    
+}
+.tarjeta2{
+    border: 1px solid #DEDEDE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tarjeta2 img{
+    width: 259px;   
+}
+
+.tarjeta2 a{
+    text-decoration: none;
+}
+
+.tarjeta2 ul{
+    list-style: none;
+}
+
+.tarjeta2 li{
+    text-align: center;
+} 
+
+.numero{
+    font-size:55px;
+    color: #30D7BA;
+    font-weight: 900 bold;
+}
+
+.sol{
+    font-size:35px;
+    color: #30D7BA;
+    font-weight: 900 bold; 
+}
+
+.precio{
+    display: flex;
+}
+
+.tarjeta2 button{
+    background-color: #03D6F3;
+    border: 0;
+    width:15rem;
+    padding: 7px 10px;
+    border-radius: 20px;
+    color: white;
+    
+}
+
+
+
+/* mediaquery */
+
 @media screen and (max-width:768px){
-    .tarjetas{
+    .tarjetas, .tarjetas2{
         flex-direction: column;
     }
-    .tarjeta{
+    .tarjeta, .tarjetas2{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
 }
