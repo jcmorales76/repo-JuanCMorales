@@ -257,14 +257,19 @@ nav li {
 
 /* FOOTER */
 
+
 .pie{
-    max-width:1200px;
-    margin: 0;
+    max-width: 1200px;
+    margin: 0 auto;
     padding-top: 30px;
     padding-bottom: 30px;
-    color: white
-
+    color: white;
+    display: flex;
 }
+.hero2{
+    background-color: #112D57;
+}
+
 .pie li{
     padding: 11px;
     font-size: 11px;
@@ -294,6 +299,7 @@ nav li {
 
 .p4{
     padding-left: 20px;
+    
 }
 .p4 img{
     max-width: 40px;
@@ -310,9 +316,13 @@ nav li {
     margin-top: 20px;
 }
 
+.pie li, p{
+    color: white;
+}
+
 /* mediaquery */
 
-@media screen and (max-width:768px){
+@media (min-width: 768px) and (max-width: 1200px) {
     .tarjetas, .tarjetas2{
         flex-direction: column;
     }
