@@ -290,6 +290,7 @@ nav li {
 .p3 img{
     max-width: 300px;
     border-radius: 15px;
+    
 }
 
 .columna1 div{
@@ -331,5 +332,7 @@ nav li {
         flex-direction: column;
         align-items: center;
     }
-
+    
 }
+
+
