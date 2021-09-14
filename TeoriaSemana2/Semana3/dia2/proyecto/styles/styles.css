@@ -36,6 +36,7 @@ nav li {
 .contenedor button:hover {
     background-color: white;
     color: rgb(59, 59, 59);
+    
 }
 
 .contenedor button{
@@ -64,6 +65,7 @@ nav li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 120px;
 }
 /* al h1, h5,y div margfen de 10px */
 .hero h1,h5,div{
@@ -76,6 +78,54 @@ nav li {
 .hero img{
     max-width: 75vw;
 }
+/* ---- SOLUCION ---- */
+
+.heroS{
+    margin-bottom: 100px;
+}
+.solucion{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.contenido{
+    display: inline;
+    margin-top:140px;
+    padding-left: 30px;
+    width: 80%;
+}
+
+.solucion img{
+    max-width: 100%;
+}
+
+.solucion button:hover{
+    background-color: White; 
+    color: #03D6F3;
+    border: 1px solid #03D6F3;
+    font-weight: bold;
+    box-shadow: 0 0 100px gray;
+}
+.solucion button{
+    background-color: #03D6F3;
+    border: 0;
+    width:9rem;
+    padding: 14px 10px;
+    border-radius: 20px;
+    color: white;
+    margin-top: 35px; 
+    margin-right: 20px;
+}
+.imgsolucion img{
+    width: 1300px;
+}
+.contenido p{
+    color: black;
+    margin-top: 20px;
+}
+
 
 /* ----- TARJETAS ------*/
 
@@ -110,7 +160,7 @@ nav li {
 .tarjeta a{
     text-decoration: none;
 }
-
+/* Fondo degrade para la tarjeta 2 */
 .tarjeta:nth-of-type(2){
     background-image: linear-gradient(230.95deg, #cb1ae8 -0.37%, #37bda6 100%);
     color: white; 
@@ -160,8 +210,6 @@ nav li {
     
 }
 .tarjeta2{
-    width: 335px;
-    height: 1000px;
     padding: 20px;
     border-radius: 10px;
 }
