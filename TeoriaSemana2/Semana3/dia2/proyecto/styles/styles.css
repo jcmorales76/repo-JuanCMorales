@@ -81,13 +81,13 @@ nav li {
 /* ---- SOLUCION ---- */
 
 .heroS{
+    margin-top: 100px;
     margin-bottom: 100px;
 }
 .solucion{
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-
 }
 
 .contenido{
@@ -169,6 +169,57 @@ nav li {
     color: black;
 }
 
+/* Quick & Easy */
+
+
+.procesos{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.procesos{
+    display: flex;
+}
+.pcontenido{
+    display: inline;   
+    margin-top: 120px;
+}
+
+.pcontenido div{
+    margin-top:140px;
+    /* padding-left: 30px; */
+    width: 80%;
+}
+
+.pcontenido h2{
+    width: 400px;
+}
+.pcontenido button:hover{
+
+    background-color: White; 
+    color: #03D6F3;
+    border: 1px solid #03D6F3;
+    font-weight: bold;  
+}
+
+.pcontenido button{
+    background-color: #03D6F3;
+    border: 0;
+    width:9rem;
+    padding: 14px 10px;
+    border-radius: 20px;
+    color: white;
+    margin-top: 35px; 
+    margin-right: 20px;
+}
+.procesos img{
+    width: 500px;
+}
+.pcontenido p{
+    color: black;
+    margin-top: 20px;
+}
 
 /* Tarjetas 2 */
 
