@@ -106,7 +106,7 @@ nav li {
     color: #03D6F3;
     border: 1px solid #03D6F3;
     font-weight: bold;
-    box-shadow: 0 0 100px gray;
+    
 }
 .solucion button{
     background-color: #03D6F3;
@@ -173,7 +173,7 @@ nav li {
 /* Tarjetas 2 */
 
 .planes{
-    max-width:1200px;
+    max-width:900px;
     margin: 0 auto;
     padding: 50px; 
 }
@@ -203,15 +203,21 @@ nav li {
 .tarjeta2 img{
     margin-top: 15px;
     margin-bottom: 15px;
+    
+    
 }
 
 .tarjetas2{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    
     
 }
 .tarjeta2{
     padding: 20px;
     border-radius: 10px;
+    
 }
 
 .tarjeta2 *{
@@ -354,7 +360,8 @@ nav li {
 
 .columna1 div{
     display: flex;
-    align-items: center;  
+    align-items: center; 
+   
 }
 
 .p4{
@@ -363,6 +370,7 @@ nav li {
 }
 .p4 img{
     max-width: 40px;
+    padding-right: 10px;
 }
 
 .p4 p{
