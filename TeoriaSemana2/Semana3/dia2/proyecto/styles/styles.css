@@ -188,13 +188,14 @@ nav li {
 
 .pcontenido div{
     margin-top:140px;
-    /* padding-left: 30px; */
+    
     width: 80%;
 }
 
 .pcontenido h2{
     width: 400px;
 }
+
 .pcontenido button:hover{
 
     background-color: White; 
@@ -214,7 +215,8 @@ nav li {
     margin-right: 20px;
 }
 .procesos img{
-    width: 500px;
+    /* width: 500px; */
+    box-sizing: border-box;
 }
 .pcontenido p{
     color: black;
@@ -430,7 +432,8 @@ nav li {
 }
 
 .columna2 img{
-    max-width:45px;
+    
+    box-sizing: border-box;
     padding-left: 20px;
     margin-top: 20px;
 }
@@ -442,19 +445,30 @@ nav li {
 /* mediaquery */
 
 @media (min-width: 768px) and (max-width: 1200px) {
-    .tarjetas, .tarjetas2{
+    .tarjetas, .tarjetas2, .procesos{
         flex-direction: column;
     }
-    .tarjeta, .tarjetas2{
+    .tarjeta, .tarjetas2, .solucion, .pcontenido{
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content:center;
     }
    .pie{
        flex-direction: column;
        align-items: center;
    }
 
+   .pcontenido, .heroS {
+      display:inline;
+      flex-direction: column;
+      text-align: center;
+   }
+   
+   .pcontenido h2{
+       width: 700px;
+   }
+  
 }
 
 
