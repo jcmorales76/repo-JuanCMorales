@@ -86,3 +86,22 @@ irAGoogle.addEventListener("click", function (evento) {
   evento.preventDefault();
   console.log(evento);
 });
+
+//capturar primero el formulario de la
+let miFormulario = document.getElementById('formulario');
+
+//submit, es la accion de enviar datos para
+
+miFormulario.addEventListener("submit",function(evento){
+    evento.preventDefault();
+    console.log("Submiit!!!");
+    //vamos a hacer envio de datos con JS
+    //Todo loq ue obtengan de un input lo suele devilver como string
+    let nuevoUsuario ={
+        // he obtenido los datos de los input
+        // formularios.nombre_input.value
+        nombres:miFormulario.nombres.value,
+        Apellidos: miFormulario.Apellidos.value,
+    };
+    console.log(nuevoUsuario);
+ });

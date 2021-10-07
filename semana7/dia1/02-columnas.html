@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <style>
+        .oscuro {
+            background-color: coral;
+        }
+
+        .claro {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container">
+        <h2>Columnas</h2>
+        <div class="row">
+            <div class="col oscuro">
+                1ra columna
+            </div>
+
+            <div class="col claro">
+                2da columna
+            </div>
+
+            <div class="col oscuro">
+                3ra columna
+            </div>
+
+            <div class="col claro">
+                4ta columna
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-8 oscuro">
+                columna de 8
+            </div>
+            <div class="col-4 claro">
+                columna de 4
+            </div>
+            <div class="col-3 oscuro">
+                columna de 3
+            </div>
+            <hr>
+            <h2>Columnas Responsivas con Breakpoint</h2>
+            <h3><code>col-xl-#</code></h3>
+            <h5>xl - Las columnas colapsan si es nemnos a 1200px</h5>
+            <div class="row">
+                <div class="col-xl-6 oscuro">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, maiores.
+                </div>
+                <div class="col-xl-6 claro">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, maiores.
+                </div>
+            </div>
+            <h3><code>col-lg-#</code></h3>
+            <h5>lg - Las columnas colapsan si es nemnos a 992px</h5>
+            <div class="row">
+                <div class="col-lg-7 oscuro">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, facilis!
+                </div>
+                <div class="col-lg-3 claro">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, molestiae.
+                </div>
+            </div>
+
+            <hr>
+            <h3><code>col-md-#</code></h3>
+            <h5>md - Las columnas colapsan si es nemnos a 768px</h5>
+            <div class="row">
+                <div class="col-md-7 oscuro">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, facilis!
+                </div>
+                <div class="col-ms-2 claro">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, molestiae.
+                </div>
+            </div>
+            <hr>
+            <h3><code>col-sm-#</code></h3>
+            <h5>sm - Las columnas colapsan si es nemnos a 576px</h5>
+            <div class="row">
+                <div class="col-sm-7 oscuro">
+                    Lorem ipsum dolor sit amet consectetur
+                </div>
+                <div class="col-sm-2 claro">
+                    Lorem ipsum dolor sit amet, consectetur 
+                </div>
+                <div class="col-sm-2 oscuro">
+                    Lorem ipsum dolor sit amet, consectetur 
+                </div>
+            </div> 
+
+            <hr>
+            <h3>combinar breakpoints</h3>
+            <h5>Podemos conbinar xl lg md sm, para que los elementos con la clase col ocupen
+                diferentes  espacio segun el anchor para
+            </h5>
+
+            <div class="row mb-4">
+                <div class="col-xl-7 col-lg-6 col-md-12 col-sm-12 oscuro">
+                    Noticia Importante!
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8 claro">
+                    Noticias Buena!
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-4 oscuro">
+                    Publicidad!
+                </div> 
+
+            </div>
+
+    </main>
+
+
+
+
+
+
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>
